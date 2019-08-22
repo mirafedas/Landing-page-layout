@@ -1,0 +1,39 @@
+@import './partials/mixins.scss';
+@import './partials/variables.scss';
+
+@media (min-width: 678px) {
+    .wrapper {
+        .section1 {
+            &-content-wrapper {
+                padding: 70px 50px;
+            }
+        }
+
+        .section6 {
+            .sign-up-form {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+    
+                .btn-with-tooltip {
+                    margin-top: -50px;
+                }
+            }
+        }
+
+        .footer-container {
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+@media (min-width: 926px) {
+    .wrapper {
+        .section6 {
+            .btn-with-tooltip {
+                margin-top: -50px;
+            }
+        }
+    }
+}

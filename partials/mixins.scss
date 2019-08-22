@@ -1,0 +1,19 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin pink-button {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    color: $white-color;
+    background-color: $pink-color;
+    font-size: 16px;
+    text-transform: uppercase;
+}

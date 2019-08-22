@@ -1,0 +1,32 @@
+@media (min-width: 678px) {
+  .wrapper .section1-content-wrapper {
+    padding: 70px 50px;
+  }
+  .wrapper .section6 .sign-up-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .section6 .sign-up-form .btn-with-tooltip {
+    margin-top: -50px;
+  }
+  .wrapper .footer-container {
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 926px) {
+  .wrapper .section6 .btn-with-tooltip {
+    margin-top: -50px;
+  }
+}
+/*# sourceMappingURL=media_queries.css.map */
